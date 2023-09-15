@@ -21,7 +21,10 @@ const Hero = () => {
         <div className="slideshow">
           <video className="background-video" autoPlay loop muted>
             {/* <source src="" type="video/mp4" /> */}
-            <source src="/landing_video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/djkdqfgu9/video/upload/v1694774969/landingvideo/Full_Video_Dia_1_1_1_1_x3tgza.mp4"
+              type="video/mp4"
+            />
           </video>
 
           <div className="masking-wrapper">
